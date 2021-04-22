@@ -17,6 +17,6 @@
         python -m pip install –upgrade pip
         pip install requirements.txt
         
-4- in passwords.py you have to put your faceboock email and password
+4- In login.py you have to put your faceboock email and password
 
 5- Good Luck :D
