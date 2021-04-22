@@ -91,11 +91,11 @@ class AutoSwiper:
                         self.click_button('Maybe Later')
 
     ''' This function for sending msgs automatically i want to seend 'Hi'
-        But i get only one atch so i just tested it one time and it didnt work 
+        But i get only one match so i just tested it one time and it didn't work 
         I have the idea but i can't apply it '''
     def send_msg(self):
         while True :
-            #First thing you have to clicking in the match so This for chechink if there is a match ?
+            #First thing you have to click in the match so This for cheching if there is a match ?
             #If yes you have a match this Part for opening the last match (top right)
             matches = self.driver.find_element_by_class_name('matchListItem')[1:]
             if len(matches) < 2 :
@@ -103,7 +103,7 @@ class AutoSwiper:
             matches[0].click()
             sleep(0.5)
 
-            #After clicking in the match i inseted 'Hi' into the message box
+            #After clicking in the match i inserted 'Hi' into the message box
             write_msg  = self.driver.find_element_by_class_name('sendMessageForm_input')
             write_msg.send_keys('Hi')
             #Then click 'send' to send the message
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     tinder.go_to_new_browser_window()
     tinder.input_text('email', FB_EMAIL)
     tinder.input_text('pass', FB_PASS)
-    #here maybe you have to manually 'Accept cookies' if got stuck here just click on 'Accept All' i gave you 5-Sec to accept it
+    #Here maybe you have to manually 'Accept cookies' if you got stuck here just click on 'Accept All' i gave you 5-Sec to accept it
     tinder.click_login_button_fb()
     tinder.go_back_to_main_browser_window()
     tinder.click_button('Allow')
