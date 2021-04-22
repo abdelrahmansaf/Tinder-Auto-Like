@@ -5,10 +5,10 @@
     
 2- In your pc you have to create an envirement and activate it
       for the install :
-              pip install virtualenv  /   python -m venv .venv  /  cd .venv/Scripts  /   ./activate     
+              1- pip install virtualenv  /   2- python -m venv .venv  /  3- cd .venv/Scripts  /  4- ./activate     
               
 3- Go to Tinder-Auto-Like file and do :
-        python -m pip install –upgrade pip  /  pip install requirements.txt
+        1- python -m pip install –upgrade pip  /  2- pip install requirements.txt
         
 4- In login.py you have to put your faceboock email and password
 
