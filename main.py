@@ -126,7 +126,7 @@ if __name__ == '__main__':
     tinder.go_to_new_browser_window()
     tinder.input_text('email', FB_EMAIL)
     tinder.input_text('pass', FB_PASS)
-    #Here maybe you have to manually 'Accept cookies' if you got stuck here just click on 'Accept All' i gave you 5-Sec to accept it
+    #Here maybe you have to manually 'Accept cookies' if you got stuck here just click on 'Accept All' i gave you 5-Sec to accept it in case you face it
     tinder.click_login_button_fb()
     tinder.go_back_to_main_browser_window()
     tinder.click_button('Allow')
